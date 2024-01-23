@@ -1,11 +1,16 @@
 import react from "react"
-
+import "./estilosnav.css"
 const NavBar = () => {
 
     return (
-        <div>
-            <h1>Holis</h1>
-        </div>
+        <>
+            <nav className="navContainer">
+                <h2>Home<span> Productos</span></h2>
+
+            </nav>
+        </>
+
+
 
     )
 

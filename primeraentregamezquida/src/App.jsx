@@ -1,11 +1,15 @@
 import './App.css'
-
+import NavBar from './components/NavBar/NavBar'
+// import Contenedor from './components/Contenedor/Contenedor'
 function App() {
 
   return (
-    <div>
-      <h1>Hola</h1>
-    </div>
+    <>
+
+      <NavBar />
+
+
+    </>
   )
 }
 
