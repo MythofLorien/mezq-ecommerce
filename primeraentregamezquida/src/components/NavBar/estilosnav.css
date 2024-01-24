@@ -1,25 +1,9 @@
-.nav {
-    background-color: #f8f6f6;
-    padding: 10px;
+.navbar {
+    background-color: #c8a6df;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.li {
-    margin-right: 20px;
-}
-
-.a {
-    text-decoration: none;
-    color: white;
 }
 
 .logo-container {
@@ -31,40 +15,29 @@
     width: 230px;
     height: auto;
     margin-right: 230px;
-    border-radius: 10px;
-
-}
-
-/*
-.navContainer {
-    border: 0;
-    background-image: linear-gradient(150deg, rgb(195, 7, 237), rgb(25, 159, 248), rgb(130, 199, 228));
-    border-radius: 10px;
-    color: white;
+    border-radius: 20px;
     display: flex;
-    font-size: 22px;
-    padding: 20px;
-    transition: .3s;
-
+    padding: 10px;
 }
 
-.buttonNav {
-
-    background-color: black;
-    padding: 20px;
-    border-radius: 10px;
-    transition: .3s;
-    ;
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 35px;
 }
 
-.buttonMag:hover {
-
-    background: none;
-
-
+.nav-link {
+    text-decoration: none;
+    color: rgb(201, 118, 215);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
 }
 
-.button:active {
-    transform: scale(0.9);
-
-} /*
+.nav-link:hover {
+    color: #d28fdf;
+}

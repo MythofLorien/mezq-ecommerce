@@ -8,7 +8,7 @@ function App() {
 
     <div>
       <NavBar />
-      <h1>Disfraces para gatos</h1>
+      <h2 className='estilosh2'>Un ecommerce de disfraces para michis</h2>
     </div>
 
 
