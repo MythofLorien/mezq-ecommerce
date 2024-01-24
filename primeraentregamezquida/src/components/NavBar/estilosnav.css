@@ -1,3 +1,40 @@
+.nav {
+    background-color: #f8f6f6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.li {
+    margin-right: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 230px;
+    height: auto;
+    margin-right: 230px;
+    border-radius: 10px;
+
+}
+
 /*
 .navContainer {
     border: 0;
