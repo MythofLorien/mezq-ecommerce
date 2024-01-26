@@ -1,7 +1,10 @@
 import react from "react"
 import "./estilosnav.css"
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
+
+    const itemCount = 5
 
     return (
 
@@ -14,6 +17,7 @@ const NavBar = () => {
                 <li><a href="/" className="nav-link">Productos</a></li>
                 <li><a href="/" className="nav-link">Clientes</a></li>
             </ul>
+            <CartWidget itemCount={itemCount} />
         </nav>
 
 
