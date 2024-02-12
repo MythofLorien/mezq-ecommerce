@@ -1,28 +1,42 @@
-import './App.css'
-import NavBar from './components/NavBar/NavBar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import React from 'react';
+import Navbar from '../src/components/NavBar/Navbar';
+import ItemListContainer from '../src/components/ItemListContainer/ItemListContainer';
+import Footer from '../src/components/Footer/Footer';
+import ItemDetailContainer from './components/ItemDetailContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-function App() {
+
+const App = () => {
 
   return (
-
-
     <>
-      <div>
 
-        <NavBar />
-        <h2 className='estilosh2'>Un ecommerce de disfraces para michis</h2>
+      <BrowserRouter>
 
-      </div>
+        <Navbar />
 
-      <div>
-        <h1>Disfraces Para michis</h1>
-        <ItemListContainer greetings="¡Hola, michi lovers!" />
-      </div>
+        <Routes>
+
+          <Route path='/' element={<ItemListContainer />} />
+
+          <Route path='/categoria/:categoryId' element={<ItemListContainer />} />
+
+          <Route path='/detalle/:id' element={<ItemDetailContainer />} />
+
+          <Route path='*' element={<Error />} />
+
+        </Routes>
+
+        <Footer />
+
+      </BrowserRouter>
+
+
+
+
 
     </>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;

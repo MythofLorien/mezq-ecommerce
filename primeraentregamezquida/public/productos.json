@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Fullbody Reno",
+        "img": "https://images.unsplash.com/photo-1638414088954-1e106a626158?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 100,
+        "stock": 5,
+        "description": "Disfraz Reno Navidad",
+        "categoria": "Disfraces"
+    },
+    {
+        "id": 2,
+        "nombre": "Moño festivo",
+        "img": "https://plus.unsplash.com/premium_photo-1695266378279-10b67a3deb39?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 50,
+        "stock": 10,
+        "description": "Moño Charol",
+        "categoria": "Accesorios"
+    },
+    {
+        "id": 3,
+        "nombre": "Vestido Cuadrille",
+        "img": "https://images.unsplash.com/photo-1633933060060-7c4f381a24c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 150,
+        "stock": 5,
+        "description": "El vestido clasico",
+        "categoria": "Disfraces"
+    },
+    {
+        "id": 4,
+        "nombre": "Corbatin Navideño",
+        "img": "https://images.unsplash.com/photo-1583083527882-4bee9aba2eea?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 80,
+        "stock": 15,
+        "description": "El favorito de las navidades",
+        "categoria": "Accesorios"
+    }
+]

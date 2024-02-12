@@ -1,32 +1,46 @@
-import react from "react"
-import "./estilosnav.css"
-import CartWidget from '../CartWidget/CartWidget';
+import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
+import './navbar.css'
 
-const NavBar = () => {
+const Navbar = () => {
+  return (
+    <div className='navContainer'>
 
-    const itemCount = 5
+      <Link to={'/'}>
 
-    return (
-
-        <nav className="navbar">
-            <div className="logo-container">
-                <img src="logo.png" alt="Logo" className="logo" />
-            </div>
-            <ul className="nav-list">
-                <li><a href="/" className="nav-link">Home</a></li>
-                <li><a href="/" className="nav-link">Productos</a></li>
-                <li><a href="/" className="nav-link">Clientes</a></li>
-            </ul>
-            <CartWidget itemCount={itemCount} />
-        </nav>
+        <image></image>
+      </Link>
 
 
 
-    )
+      <ul>
+
+        <li>
+
+          <NavLink to={'/'}>Inicio</NavLink>
+
+        </li>
+
+        <li>
+
+          <NavLink to={'categoria/Disfraces'}>Disfraces</NavLink>
+
+        </li>
+
+        <li>
+
+          <NavLink to={'categoria/Accesorios'}>Accesorios</NavLink>
+
+        </li>
 
 
+
+      </ul>
+
+
+
+    </div>
+  )
 }
 
-export default NavBar;
-
-
+export default Navbar

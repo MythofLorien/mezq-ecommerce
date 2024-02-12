@@ -4,7 +4,7 @@ import "./estilosLogo.css"
 const Logo = () => {
     return (
         <div>
-            <img></img>
+            <img>./</img>
         </div>
     )
 }
